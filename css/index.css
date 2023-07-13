@@ -37,7 +37,7 @@ background-repeat:no-repeat ;
     position: absolute;
     border-top: 2.5rem solid var(--white-color);
     border-right: 7.8125rem solid transparent;
-    bottom: -2.49rem ;
+    bottom: -2.5rem ;
     left: 0rem;
 }
 .Home::after{
@@ -45,7 +45,7 @@ background-repeat:no-repeat ;
     position: absolute;
     border-top: 2.5rem solid var(--white-color);
     border-left: 7.8125rem solid transparent;
-    bottom: -2.49rem ;
+    bottom: -2.5rem ;
     right: 0rem;
 }
 .Quotes-icon{

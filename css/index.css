@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --pink-color:#E65F78;
+    --white-color: rgba(255, 255, 255, 0.7);
+    --black-color:#000;
+    --color-primary:#732FF9;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5rem;
+    --bs-body-font-family:'Dancing Script', cursive;
+    --bs-body-font-size: 1rem;
+}
+html{
+    overflow-x: hidden;
+}
+body
+{
+background-image: url(../imgs/download2.jpg);
+background-position: center center;
+background-size:cover ;
+background-repeat:no-repeat ;
+
+}
+#Home-Page{
+    height: 100vh;
+}
+.Home{
+    position: relative;
+}
+
+
+.Home::before{
+    content: "";
+    position: absolute;
+    border-top: 2.5rem solid var(--white-color);
+    border-right: 7.8125rem solid transparent;
+    bottom: -2.49rem ;
+    left: 0rem;
+}
+.Home::after{
+    content: "";
+    position: absolute;
+    border-top: 2.5rem solid var(--white-color);
+    border-left: 7.8125rem solid transparent;
+    bottom: -2.49rem ;
+    right: 0rem;
+}
+.Quotes-icon{
+    font-weight: 800;
+    font-size: 5rem;
+    color: var(--color-primary);
+}
+.Home-content{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top:90% ;
+}
+.quotes{
+    background-color: rgba(255, 255, 255, 0.7) ;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+   
+}
+button, input, optgroup, select, textarea {
+    margin-inline: 50%;
+    transform: translateX(-50%);
+    margin-top: 2%;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 9.375rem;
+}
+.btn-light {
+    --bs-btn-bg:#d3d4d5 ;
+    --bs-btn-border-color: #d3d4d5;
+    --bs-btn-hover-bg: #f8f9fa ;
+   
+}
+
+p{
+    line-height:3.4375rem;
+    width: 50%;
+}
